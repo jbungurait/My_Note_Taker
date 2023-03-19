@@ -1,14 +1,15 @@
 {
-  "name": "note-taker",
+  "name": "my_note_taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application to write and store notes on the browser.",
   "main": "server.js",
   "scripts": {
     "test": "jest"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.18.2"
   }
 }
