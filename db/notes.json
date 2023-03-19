@@ -1,12 +1,12 @@
 [
     {
-        "title": "Save this note!",
-        "text": "First note saved",
-        "note_Id": "d826"
+        "title": "first note",
+        "text": "First note",
+        "note_Id": "c6632b34-4bc2-4e93-84e1-66ff925e27fe"
     },
     {
-        "title": "Next note",
-        "text": "Second note to save",
-        "note_Id": "b827"
+        "title": "new second note",
+        "text": "trouble shooting delete function\n",
+        "note_Id": "c2726625-ef8b-4124-b1c7-70f8bd47990c"
     }
 ]
