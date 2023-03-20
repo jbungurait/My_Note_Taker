@@ -8,5 +8,25 @@
         "title": "new second note",
         "text": "trouble shooting delete function\n",
         "note_Id": "c2726625-ef8b-4124-b1c7-70f8bd47990c"
+    },
+    {
+        "title": "Adding new note 3",
+        "text": "lets get going!\n",
+        "note_Id": "b263a641-8bbe-4258-bbb5-c2871d910387"
+    },
+    {
+        "title": "New note",
+        "text": "Writing the fourth note",
+        "note_Id": "d68c7181-6ed8-4d9a-887a-b079f6e3b708"
+    },
+    {
+        "title": "Fifth note",
+        "text": "just keep swimming\n",
+        "note_Id": "37957859-0af4-4274-b6fc-410f4b5ce95e"
+    },
+    {
+        "title": "sixth",
+        "text": "yup yup",
+        "note_Id": "49155225-acc2-45e2-bc62-d09476c2f3e0"
     }
 ]

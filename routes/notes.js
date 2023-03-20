@@ -27,18 +27,18 @@ notes.post('/', (req,res) =>{
     const newNote = {
       title,
       text,
-      note_Id: uuidv4(),
+      id: uuidv4(),
     }
     readAndAppend(newNote, './db/notes.json');
   }
 });
 
 notes.delete('/:note_Id', (req, res) =>{
-  const noteID = req.body.note_Id;
+  const noteID = req.params.id;
   readFromFile('./db/notes.json')
   .then((data) => {JSON.parse(data)})
   .then((json) => {
-    const result = json.filter((note) => note.note_Id !== noteID)
+    const result = json.filter((note) => note.id !== noteID)
     writeToFile('./db/notes.json', result);
   });
 });
