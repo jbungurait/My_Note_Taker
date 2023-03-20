@@ -1,32 +1,17 @@
 [
     {
-        "title": "first note",
-        "text": "First note",
-        "note_Id": "c6632b34-4bc2-4e93-84e1-66ff925e27fe"
+        "title": "create note 2",
+        "text": "THIRD note",
+        "note_Id": "7f8a0b6d-c20d-4284-bdfb-17f75c9ed8c2"
     },
     {
-        "title": "new second note",
-        "text": "trouble shooting delete function\n",
-        "note_Id": "c2726625-ef8b-4124-b1c7-70f8bd47990c"
+        "title": "Create note 3",
+        "text": "third note",
+        "note_Id": "663cbbd9-1bdc-46d3-8cee-34378a7dca59"
     },
     {
-        "title": "Adding new note 3",
-        "text": "lets get going!\n",
-        "note_Id": "b263a641-8bbe-4258-bbb5-c2871d910387"
-    },
-    {
-        "title": "New note",
-        "text": "Writing the fourth note",
-        "note_Id": "d68c7181-6ed8-4d9a-887a-b079f6e3b708"
-    },
-    {
-        "title": "Fifth note",
-        "text": "just keep swimming\n",
-        "note_Id": "37957859-0af4-4274-b6fc-410f4b5ce95e"
-    },
-    {
-        "title": "sixth",
-        "text": "yup yup",
-        "note_Id": "49155225-acc2-45e2-bc62-d09476c2f3e0"
+        "title": "Create note 4",
+        "text": "fourth note",
+        "note_Id": "c83208d2-ecee-464a-959f-f3bfc2375348"
     }
 ]

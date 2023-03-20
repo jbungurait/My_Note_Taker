@@ -9,11 +9,11 @@ notes.get('/', (req, res) => {
   });
 
  notes.get('/:note_id', (req, res) => {
-  const noteId = req.params.note_id;
+  const noteId = req.params.note_Id;
     readFromFile('./db/notes.json')
       .then((data) => JSON.parse(data))
       .then((json) => {
-        const result = json.filter((note) => note.note_id === noteId);
+        const result = json.filter((note) => note.note_Id === noteId);
         return result.length > 0
           ? res.json(result)
           : res.json('No note with that ID');
@@ -27,18 +27,18 @@ notes.post('/', (req,res) =>{
     const newNote = {
       title,
       text,
-      id: uuidv4(),
+      note_Id: uuidv4(),
     }
     readAndAppend(newNote, './db/notes.json');
   }
 });
 
 notes.delete('/:note_Id', (req, res) =>{
-  const noteID = req.params.id;
+  const noteID = req.params.note_Id;
   readFromFile('./db/notes.json')
   .then((data) => {JSON.parse(data)})
   .then((json) => {
-    const result = json.filter((note) => note.id !== noteID)
+    const result = json.filter((note) => note.note_Id !== noteID)
     writeToFile('./db/notes.json', result);
   });
 });
