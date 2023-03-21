@@ -36,7 +36,7 @@ notes.post('/', (req,res) =>{
 notes.delete('/:note_Id', (req, res) =>{
   const noteID = req.params.note_Id;
   readFromFile('./db/notes.json')
-  .then((data) => {JSON.parse(data)})
+  .then((data) => JSON.parse(data))
   .then((json) => {
     const result = json.filter((note) => note.note_Id !== noteID)
     writeToFile('./db/notes.json', result);
