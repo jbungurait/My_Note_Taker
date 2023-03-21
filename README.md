@@ -47,15 +47,15 @@ Then that note is deleted and the notes list is refreshed
 * >Click the Trash Can Icon to delete a note
 
 ## Credits
-[Express.js] (https://expressjs.com/)
+[Express.js](https://expressjs.com/)
 
-[FS] (https://nodejs.org/api/fs.html)
+[FS](https://nodejs.org/api/fs.html)
 
-[UUID] (https://www.npmjs.com/package/uuid)
+[UUID](https://www.npmjs.com/package/uuid)
 
-[Path] (https://www.npmjs.com/package/path)
+[Path](https://www.npmjs.com/package/path)
 
-[Render] (https://render.com/)
+[Render](https://render.com/)
 
 
 ## Future Development
